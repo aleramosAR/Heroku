@@ -1,5 +1,5 @@
-const facebookID = '559885825005670';
-const facebookSecret = '6a2926fd1ded556381f2275ddfbee1f2';
+const facebookID = process.env.facebookID;
+const facebookSecret = process.env.facebookSecret;
 const PORT_DEFAULT = process.env.PORT;
 
 export const MODE = process.env.npm_lifecycle_event;
