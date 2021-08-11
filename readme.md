@@ -13,7 +13,7 @@
 https://coder-alejandro.herokuapp.com
 ````
 <br />
-Pude ingresar con mi usuario de facebook, intente luego ingresar con otra pero al ser una app de prueba hubo que crear un usuario de testing con estos datos:
+Pude ingresar con mi usuario de Facebook, intente luego ingresar con otra cuenta pero al ser una app de prueba hno funciono y tuve que crear un usuario de testing con estos datos:
 
 ```
 Nombre: test coder
