@@ -7,7 +7,8 @@ function clickDesloguear() {
 }
 
 socket.on('initApp', data => { 
-  URL_BASE = `http://localhost:${data.PORT}`;
+  // URL_BASE = `http://localhost:${data.PORT}`;
+  URL_BASE = 'https://coder-alejandro.herokuapp.com';
 });
 
 if(window.location.pathname.split('/').pop() == 'index') {

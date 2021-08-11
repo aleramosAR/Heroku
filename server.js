@@ -108,7 +108,8 @@ passport.deserializeUser(function (usuario, done) {
 // Funcion que carga los productos y emite el llamado a "listProducts"
 async function getProducts() {
 	try {
-		const response = await fetch(`http://localhost:${PORT}/api/productos`);
+		// const response = await fetch(`http://localhost:${PORT}/api/productos`);
+		const response = await fetch(`https://coder-alejandro.herokuapp.com/api/productos`);
 		io.sockets.emit("listProducts", await response.json());
 	} catch (err) {
 		logger.error(err);
@@ -118,7 +119,8 @@ async function getProducts() {
 // Funcion que devuelve el listado de mensajes
 async function getMensajes() {
 	try {
-		const response = await fetch(`http://localhost:${PORT}/api/mensajes`);
+		// const response = await fetch(`http://localhost:${PORT}/api/mensajes`);
+		const response = await fetch(`https://coder-alejandro.herokuapp.com/api/mensajes`);
 		io.sockets.emit("listMensajes", await response.json());
 	} catch (err) {
 		logger.error(err);
