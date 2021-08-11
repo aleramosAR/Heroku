@@ -81,6 +81,8 @@ function configApp(app) {
 	app.use(passport.session());
 }
 
+app.enable('trust proxy');
+
 
 passport.use(new FacebookStrategy({
     clientID: FACEBOOK_CLIENT_ID,
