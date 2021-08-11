@@ -14,6 +14,7 @@ https://coder-alejandro.herokuapp.com
 ````
 <br />
 Pude ingresar con mi usuario de facebook, intente luego ingresar con otra pero al ser una app de prueba hubo que crear un usuario de testing con estos datos:
+
 ```
 Nombre: test coder
 E-mail: test_nxwswqr_coder@tfbnw.net
